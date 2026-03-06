@@ -1,7 +1,7 @@
 #!/bin/bash -
 CELLBLOCK_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
-source "$CELLBLOCK_DIR/../bash/forest.functions.sh"
+source "$CELLBLOCK_DIR/../forestbash/forest.functions.sh"
 
 # Load gradle.properties into associative array
 declare -A properties
